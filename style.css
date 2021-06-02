@@ -1,0 +1,44 @@
+/*Format navbar elements horizontally and with space*/
+.navbar li {
+  display: inline-block;
+  padding: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 3px;
+}
+
+/*Format hyperlinks to be black/no underline*/
+.navbar li a {
+  color: #000;
+  text-decoration: none;
+}
+/*Position navbar in the top right*/
+.right-float {
+  float: right;
+}
+
+
+.left-side{
+  width:60%;
+  float:left;
+  padding: 10px;
+  background: #D3D3D3
+}
+
+.left-side h1{
+  color: #00FFFF;
+  font-style: bold;
+}
+
+.right-side {
+  margin-left: 30%;
+  background: #D3D3D3;
+  padding:10px;
+}
+
+.right-side h1 {
+  color: #00FFFF;
+  font-style: bold;
+}
