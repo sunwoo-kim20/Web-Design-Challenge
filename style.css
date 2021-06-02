@@ -21,9 +21,9 @@
 
 
 .left-side{
-  width:60%;
+  width:50%;
   float:left;
-  padding: 10px;
+  padding-left: 40px;
   background: #D3D3D3
 }
 
@@ -33,9 +33,9 @@
 }
 
 .right-side {
-  margin-left: 30%;
+  margin-left: 60%;
   background: #D3D3D3;
-  padding:10px;
+  padding-right: 200px;
 }
 
 .right-side h1 {
