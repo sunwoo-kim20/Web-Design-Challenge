@@ -23,22 +23,26 @@
 .left-side{
   width:50%;
   float:left;
-  padding-left: 40px;
-  background: #D3D3D3
+  padding: 10px;
+  background: #ffffff;
 }
 
 .left-side h1{
-  color: #00FFFF;
+  color: #60e3c2;
   font-style: bold;
 }
 
 .right-side {
   margin-left: 60%;
-  background: #D3D3D3;
-  padding-right: 200px;
+  background: #ffffff;
+  padding: 10px;
 }
 
 .right-side h1 {
-  color: #00FFFF;
+  color: #60e3c2;
   font-style: bold;
+}
+
+.test{
+  font-style: italic;
 }
