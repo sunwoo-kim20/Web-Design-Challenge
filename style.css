@@ -1,38 +1,14 @@
-.background{
-  background: #dcdcdc;
-}
-
-nav {
-  background: #ffffff;
-}
-
-/*Format navbar elements horizontally and with space*/
-.navbar li {
-  display: inline-block;
-  padding: 10px;
-  cursor: pointer;
-  background: #fff;
-}
-
-/*Format hyperlinks to be black/no underline*/
-.navbar li a {
-  color: #000;
-  text-decoration: none;
-}
-/*Position navbar in the top right*/
-.right-float {
-  float: right;
-}
-
 body {
   background: #dcdcdc;
 }
+
 
 .left-side{
   width:50%;
   float:left;
   padding: 10px;
   background: #ffffff;
+  margin: 20px;
 }
 
 .left-side h1{

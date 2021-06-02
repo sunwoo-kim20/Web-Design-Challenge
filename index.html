@@ -7,47 +7,66 @@
     <link rel="stylesheet" type = "text/css" href="style.css">
   </head>
   <body>
-    <div class = "background">
-      <nav class="navbar">
-        <ul>
-          <li>
-            <a href="index.html">Latitude</a>
-          </li>
-          <div class="right-float">
-            <li>
-              <select id="nav-select" onchange = "location = this.value">
-                <option selected disabled hidden>Plots</option>
-                <option value="temp-vis.html">Max Temperature</option>
-                <option value="humidity-vis.html">Humidity</option>
-                <option value="cloud-vis.html">Cloudiness</option>
-                <option value="wind-vis.html">Wind Speed</option>
-              </select>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded = "false">
+                Plots
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="temp-vis.html">Max Temperature</a></li>
+                <li><a class="dropdown-item" href="humidity-vis.html">Humidity</a></li>
+                <li><a class="dropdown-item" href="cloud-vis.html">Cloudiness</a></li>
+                <li><a class="dropdown-item" href="wind-vis.html">Wind Speed</a></li>
+              </ul>
             </li>
-            <li>
-              <a href="comparison-page.html">Comparison</a>
+            <li class="nav-item">
+              <a class="nav-link" href="comparison-page.html">Comparison</a>
             </li>
-            <li>
-              <a href="data-page.html">Data</a>
+            <li class="nav-item">
+              <a class="nav-link" href="data-page.html">Data</a>
             </li>
-          </div>
-
-        </ul>
-        <!--<div class="clearfix"></div>-->
-      </nav>
-      <div class = "left-side">
-        <h1>Summary: Latitude vs. X</h1>
-        <p><img src="Resources/assets/images/vs-temp.png" width = 300 height = 250 alt="image of Latitude vs Max Temp scatterplot" style="float: left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non nunc cursus, varius nisi ultricies, viverra nunc. In hac habitasse platea dictumst. Duis bibendum porta sapien, sit amet pretium metus faucibus sit amet. Suspendisse arcu urna, elementum id nulla at, facilisis iaculis ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus tempus elementum viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus vestibulum sagittis orci a accumsan. Mauris non nibh venenatis, gravida odio et, consectetur nisl.
-        </p>
-        <p>Donec fermentum pellentesque mauris, a malesuada sem fermentum rhoncus. Fusce pretium sodales magna, sed mattis diam vulputate eu. Nullam turpis lectus, imperdiet ac facilisis eu, varius a nibh. Maecenas ipsum lectus, imperdiet et consequat ac, malesuada quis tellus. Etiam nisi lacus, viverra id commodo nec, porttitor eu purus. In at consequat dui, a rutrum ex. Aliquam dignissim leo ac tellus vehicula maximus. Maecenas mi velit, bibendum at dignissim vestibulum, fermentum nec mi. Pellentesque nec est ut tellus ultrices hendrerit. Nullam bibendum ultrices iaculis. Curabitur at ante sed mauris laoreet faucibus. Donec ut nunc lobortis, rutrum nunc quis, mattis nisi.
-        </p>
+          </ul>
+        </div>
       </div>
-      <div class="right-side">
-        <h1>Visualizations</h1>
-        <hr>
-
-      </div>
+    </nav>
+    <div class = "left-side">
+      <h1>Summary: Latitude vs. X</h1>
+      <p><img src="Resources/assets/images/vs-temp.png" width = 300 height = 250 alt="image of Latitude vs Max Temp scatterplot" style="float: left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non nunc cursus, varius nisi ultricies, viverra nunc. In hac habitasse platea dictumst. Duis bibendum porta sapien, sit amet pretium metus faucibus sit amet. Suspendisse arcu urna, elementum id nulla at, facilisis iaculis ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus tempus elementum viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus vestibulum sagittis orci a accumsan. Mauris non nibh venenatis, gravida odio et, consectetur nisl.
+      </p>
+      <p>Donec fermentum pellentesque mauris, a malesuada sem fermentum rhoncus. Fusce pretium sodales magna, sed mattis diam vulputate eu. Nullam turpis lectus, imperdiet ac facilisis eu, varius a nibh. Maecenas ipsum lectus, imperdiet et consequat ac, malesuada quis tellus. Etiam nisi lacus, viverra id commodo nec, porttitor eu purus. In at consequat dui, a rutrum ex. Aliquam dignissim leo ac tellus vehicula maximus. Maecenas mi velit, bibendum at dignissim vestibulum, fermentum nec mi. Pellentesque nec est ut tellus ultrices hendrerit. Nullam bibendum ultrices iaculis. Curabitur at ante sed mauris laoreet faucibus. Donec ut nunc lobortis, rutrum nunc quis, mattis nisi.
+      </p>
     </div>
-    
+    <div class="right-side">
+      <h1>Visualizations</h1>
+      <hr>
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <img src="Resources/assets/images/vs-temp.png" width = 300 height = 250 alt="scatterplot of latitude vs temperature">
+          </div>
+          <div class="col-2">
+            <img src="Resources/assets/images/vs-humidity.png" width = 300 height = 250 alt="scatterplot of latitude vs humidity">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <img src="Resources/assets/images/vs-cloudiness.png" width = 300 height = 250 alt="scatterplot of latitude vs cloudiness">
+          </div>
+          <div class="col-2">
+            <img src="Resources/assets/images/vs-wind.png" width = 300 height = 250 alt="scatterplot of latitude vs wind speed">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
