@@ -18,8 +18,10 @@ body {
   grid-row-gap: 20px;
 }
 
-.image-pad {
-  padding: 5px;
+
+
+.selected {
+  border: 5px solid #60e3c2;
 }
 .column-format {
   align-content: space-around;
