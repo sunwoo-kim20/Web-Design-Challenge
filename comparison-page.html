@@ -9,7 +9,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Latitude</a>
+        <a class="navbar-brand box" href="index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,7 +36,40 @@
         </div>
       </div>
     </nav>
-    <h1>Comparison: Latitude vs X</h1>
+
+    <div class="container white-back">
+      <h1 class = "header-cyan">Comparison: Latitude vs X</h1>
+      <hr>
+      Click any plot to get an in-depth analysis.
+      <div class="row">
+        <div class="col-sm-6">
+          <h4 class = "header-cyan">vs. Max Temperature</h4>
+            <a href="temp-vis.html">
+              <img class = "scale" src="Resources/assets/images/vs-temp.png" alt="scatterplot of latitude vs temperature">
+            </a>
+        </div>
+        <div class="col-sm-6">
+          <h4 class = "header-cyan">vs. Humidity</h4>
+          <a href="humidity-vis.html">
+            <img class = "scale" src="Resources/assets/images/vs-humidity.png" alt="scatterplot of latitude vs humidity">
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <h4 class = "header-cyan">vs. Cloudiness</h4>
+          <a href="cloud-vis.html">
+            <img class = "scale" src="Resources/assets/images/vs-cloudiness.png" alt="scatterplot of latitude vs cloudiness">
+          </a>
+        </div>
+        <div class="col-sm-6">
+          <h4 class = "header-cyan">vs. Wind Speed</h4>
+          <a href="wind-vis.html">
+            <img class = "scale" src="Resources/assets/images/vs-wind.png" alt="scatterplot of latitude vs wind speed">
+          </a>
+        </div>
+      </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
