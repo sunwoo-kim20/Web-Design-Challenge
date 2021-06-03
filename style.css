@@ -2,6 +2,33 @@ body {
   background: #dcdcdc;
 }
 
+.header-cyan {
+  color: #60e3c2;
+}
+
+.white-back {
+  background: white;
+  margin-top: 20px;
+}
+
+.container{
+  grid-template-columns: 200px 200px;
+  grid-row: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.image-pad {
+  padding: 5px;
+}
+.column-format {
+  align-content: space-around;
+  justify-content: space-between;
+}
+
+.grid-container {
+  grid-gap: 50px;
+}
 
 .left-side{
   width:50%;
