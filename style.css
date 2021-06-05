@@ -33,3 +33,10 @@ body {
 .selected {
   border: 5px solid #60e3c2;
 }
+
+
+@media (max-width:600px) {
+  nav .navbar {
+    background: #60e3c2;
+  }
+}
