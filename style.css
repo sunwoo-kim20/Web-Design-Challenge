@@ -35,8 +35,8 @@ body {
 }
 
 
-@media (max-width:600px) {
-  nav .navbar {
-    background: #60e3c2;
+@media (max-width:700px) {
+  nav.navbar {
+    background: #60e3c2 !important;
   }
 }
